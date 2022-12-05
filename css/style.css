@@ -1,0 +1,605 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bebas Neue', cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/****header-section****/
+.header-section{
+	background: url(../images/top.png) center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px 120px 0px;
+}
+.header-section .logo{
+	text-align: center;
+}
+.header-section .search{
+	text-align: right;
+}
+.header-section .hero-section{
+	padding: 150px 250px 0px 250px;
+}
+.header-section .hero-section h2{
+	font-size: 80px;
+	line-height: 80px;
+	font-weight: 100;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255, 0.7);
+}
+.header-section .hero-section h1{
+	font-size: 225px;
+	line-height: 180px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: rgb(240, 68, 85, 0.7);
+}
+.header-section .hero-section h3{
+	font-size: 80px;
+	line-height: 40px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: #fff;
+}
+.header-section .hero-section button{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 55px;
+	background: transparent;
+	margin-top: 150px;
+	border: 2px solid #fff;
+	transition: all ease 0.3s;
+	border-radius: 0px;
+}
+.header-section .hero-section button:hover{
+	color: #f04455;
+	letter-spacing: 2px;
+}
+.header-section .menu{
+	list-style-type: none;
+	text-align: left;
+	padding: 10px 0px;
+	background: transparent;
+}
+.header-section .menu li a{
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 300;
+	text-decoration: none;
+	transition: all ease 0.3s;
+	text-transform: uppercase;
+	letter-spacing: 2px;			
+}
+.header-section .menu li a:hover{
+	letter-spacing: 1px;
+	color: #f04455;
+}
+.header-section .bg-dark {
+    background-color: transparent!important;
+}
+ .header-section button:focus {
+    outline: 0px auto -webkit-focus-ring-color!important;
+}
+.header-section .navbar-toggler{
+	border: 0px solid transparent;
+}
+/****header-section****/
+
+/****about-section****/
+.about-section{
+	background: url(../images/about.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.about-section .about-left{
+	padding: 70px 0px;
+}
+.about-section .about-left h3{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.about-section .about-left p{
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	color: #8d8d8d;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.about-section .about-left button{
+	color: #616161;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px 55px;
+	background: transparent;
+	margin-top: 0px;
+	border: 2px solid #616161;
+	transition: all ease 0.3s;
+	text-align: left;
+	border-radius: 0px;
+}
+.about-section .about-left button:hover{
+	color: #f04455;
+	letter-spacing: 2px;
+}
+.about-section .about-right img{
+	width: 100%;
+}
+.about-section .about-right h1{
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: #ed1f34;
+	text-align: right;
+	margin-top: -106px;
+}
+/****about-section****/
+
+/****video-section****/
+.video-section{
+	background: url(../images/p2.png) center top no-repeat;
+	background-size: cover;
+	padding: 200px 0px;
+}
+.video-section .video-left{
+	text-align: right;
+}
+.video-section .video-left img{
+	width: 80px;
+	margin: 70px 50px 70px 0px;
+}
+.video-section .video-right h1{
+	font-size: 80px;
+	line-height: 90px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: rgb(240, 68, 85, 0.7);
+}
+.video-section .video-right p{
+	width: 63%;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(255, 255, 255, 0.7);
+	text-align: left;
+}
+/****video-section****/
+
+/****gallery-section****/
+.gallery-section .container{
+	max-width: 99%;
+	padding: 0px;
+	margin: 0px;
+}
+.gallery-section img{
+	width: 100%;
+}
+.gallery-section .container .col-lg-3{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/****gallery-section****/
+
+/****gallery-2-section****/
+.gallery-2-section{
+	background: url(../images/photo3.png) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 300px 0px;
+	margin-top: -2px;	
+}
+.gallery-2-section h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.gallery-2-section p{
+	width: 63%;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(255, 255, 255, 0.7);
+	margin: 0px auto;
+}
+.gallery-2-section button{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px 55px;
+	background: transparent;
+	margin-top: 50px;
+	border: 2px solid #fff;
+	transition: all ease 0.3s;
+	text-align: center;
+	border-radius: 0px;
+}
+.gallery-2-section button:hover{
+	color: #f04455;
+	letter-spacing: 2px;
+	background: transparent;
+}
+/****gallery-2-section****/
+
+/****footer-section****/
+	.footer-section{
+		text-align: center;
+		background: #222222;
+		padding: 80px 0px;
+	}
+	.footer-section p{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	color: #595959;
+	margin-top: 10px;
+	}
+/****footer-section****/
+
+/****responsive-section****/
+@media (min-width: 279px) and (max-width: 319px) {
+  
+	  .header-section .hero-section {
+	    padding: 150px 30px 0px 30px;
+	 }
+	.header-section .hero-section h1 {
+	    font-size: 72px;
+	    line-height: 82px;
+	 }
+	 .header-section .hero-section h2 {
+	    font-size: 30px;
+	    line-height: 15px
+	 }
+	 .header-section .hero-section h3 {
+	    font-size: 60px;
+	    line-height: 30px;
+	 }
+	 .header-section .hero-section button {
+	 	margin-top: 100px;
+	 }
+	 .header-section .hero-nav, .hero-logo, .hero-search{
+	 	width: 33.33%!important;
+	 }
+	 .header-section .navbar img {
+	    width: 35px;
+	    margin-top: -15px;
+	 }
+	.header-section .search img{
+		width: 35px;
+	 }
+	.header-section .search img {
+	    width: 25px;
+	    margin-top: 5px;
+	 }
+	.header-section .menu {
+		text-align: center;
+	 }
+	.about-section .about-left {
+	    padding: 0px 0px;
+	 }
+	.about-section .about-right h1 {
+	    font-size: 60px;
+	    line-height: 70px;
+	    margin-top: -59px;
+	 }
+ 	.video-section {
+	    padding: 50px 0px;
+	 }
+	 .video-section .video-left {
+	    text-align: center;
+	 }
+	 .video-section .video-left img {
+	    margin: 20px 0px 50px 0px;
+	 }
+	.video-section .video-right h1 {
+	    font-size: 60px;
+	    line-height: 60px;
+	    text-align: center;
+	 }
+	 .video-section .video-right p {
+	    width: 100%;
+	    text-align: center;
+	 }
+	 .gallery-section .container {
+	    max-width: 95%;
+	 }
+	 .gallery-2-section{
+	 	padding: 100px 0px;
+	 }
+	 .gallery-2-section h2 {
+	    font-size: 60px;
+	    line-height: 60px;
+	 }
+	 .gallery-2-section p {
+	    width: 100%;
+	 }
+	 .footer-section{
+	 	padding: 30px 0px;
+	 }
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .header-section .hero-section {
+	    padding: 150px 30px 0px 30px;
+	 }
+	.header-section .hero-section h1 {
+	    font-size: 87px;
+	    line-height: 87px;
+	 }
+	 .header-section .hero-section h2 {
+	    font-size: 42px;
+	    line-height: 52px
+	 }
+	 .header-section .hero-section h3 {
+	    font-size: 70px;
+	    line-height: 30px;
+	 }
+	 .header-section .hero-section button {
+	 	margin-top: 100px;
+	 }
+	 .header-section .hero-nav, .hero-logo, .hero-search{
+	 	width: 33.33%!important;
+	 }
+	 .header-section .navbar img {
+	    width: 35px;
+	    margin-top: -15px;
+	 }
+	.header-section .search img{
+		width: 35px;
+	 }
+	.header-section .search img {
+	    width: 25px;
+	    margin-top: 5px;
+	 }
+	.header-section .menu {
+		text-align: center;
+	 }
+	.about-section .about-left {
+	    padding: 0px 0px;
+	 }
+	.about-section .about-right h1 {
+	    font-size: 60px;
+	    line-height: 70px;
+	    margin-top: -59px;
+	 }
+ 	.video-section {
+	    padding: 50px 0px;
+	 }
+	 .video-section .video-left {
+	    text-align: center;
+	 }
+	 .video-section .video-left img {
+	    margin: 20px 0px 50px 0px;
+	 }
+	.video-section .video-right h1 {
+	    font-size: 60px;
+	    line-height: 60px;
+	    text-align: center;
+	 }
+	 .video-section .video-right p {
+	    width: 100%;
+	    text-align: center;
+	 }
+	 .gallery-section .container {
+	    max-width: 95%;
+	 }
+	 .gallery-2-section{
+	 	padding: 100px 0px;
+	 }
+	 .gallery-2-section h2 {
+	    font-size: 60px;
+	    line-height: 60px;
+	 }
+	 .gallery-2-section p {
+	    width: 100%;
+	 }
+	 .footer-section{
+	 	padding: 30px 0px;
+	 }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  	  .header-section .hero-section {
+	    padding: 150px 30px 0px 30px;
+	 }
+	.header-section .hero-section h1 {
+	    font-size: 120px;
+	    line-height: 120px;
+	 }
+	 .header-section .hero-section h2 {
+	    font-size: 42px;
+	    line-height: 52px
+	 }
+	 .header-section .hero-section h3 {
+	    font-size: 70px;
+	    line-height: 30px;
+	 }
+	 .header-section .hero-section button {
+	 	margin-top: 100px;
+	 }
+	 .header-section .hero-nav, .hero-logo, .hero-search{
+	 	width: 33.33%!important;
+	 }
+	 .header-section .navbar img {
+	    width: 35px;
+	    margin-top: -15px;
+	 }
+	.header-section .search img{
+		width: 35px;
+	 }
+	.header-section .search img {
+	    width: 25px;
+	    margin-top: 5px;
+	 }
+	.header-section .menu {
+		text-align: center;
+	 }
+	.about-section .about-left {
+	    padding: 0px 0px;
+	 }
+	.about-section .about-right h1 {
+	    font-size: 90px;
+	    line-height: 90px;
+	    margin-top: -81px;
+	 }
+ 	.video-section {
+	    padding: 50px 0px;
+	 }
+	 .video-section .video-left {
+	    text-align: center;
+	 }
+	 .video-section .video-left img {
+	    margin: 20px 0px 50px 0px;
+	 }
+	 .video-section .video-right h1 {
+	    font-size: 60px;
+	    line-height: 60px;
+	    text-align: center;
+	 }
+	 .video-section .video-right p {
+	    width: 100%;
+	    text-align: center;
+	 }
+	 .gallery-section .container {
+	    max-width: 96.5%;
+	 }
+	 .gallery-2-section{
+	 	padding: 100px 0px;
+	 }
+	 .gallery-2-section h2 {
+	    font-size: 60px;
+	    line-height: 60px;
+	 }
+	 .gallery-2-section p {
+	    width: 100%;
+	 }
+	 .footer-section{
+	 	padding: 30px 0px;
+	 }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .header-section .hero-section {
+	    padding: 150px 100px 0px 100px;
+	 }
+	.header-section .hero-section h1 {
+	    font-size: 150px;
+	    line-height: 150px;
+	 }
+	 .header-section .hero-section h2 {
+	    font-size: 50px;
+	    line-height: 50px
+	 }
+	 .header-section .hero-section h3 {
+	    font-size: 90px;
+	    line-height: 40px;
+	 }
+	 .header-section .hero-section button {
+	 	margin-top: 100px;
+	 }
+	 .header-section .hero-nav, .hero-logo, .hero-search{
+	 	width: 33.33%!important;
+	 }
+	 .header-section .navbar img {
+	    width: 35px;
+	    margin-top: -15px;
+	 }
+	.header-section .search img{
+		width: 35px;
+	 }
+	.header-section .search img {
+	    width: 25px;
+	    margin-top: 5px;
+	 }
+	.header-section .menu {
+		text-align: center;
+	 }
+	.about-section .about-left {
+	    padding: 0px 0px;
+	 }
+	 .about-section .about-right h1 {
+	    font-size: 120px;
+	    line-height: 120px;
+	    margin-top: -117px;
+	 }
+ 	.video-section {
+	    padding: 50px 0px;
+	 }
+	 .video-section .video-left {
+	    text-align: center;
+	 }
+	 .video-section .video-left img {
+	    margin: 20px 0px 50px 0px;
+	 }
+	.video-section .video-right h1 {
+	    font-size: 60px;
+	    line-height: 60px;
+	    text-align: center;
+	 }
+	 .video-section .video-right p {
+	    width: 100%;
+	    text-align: center;
+	 }
+	 .gallery-section .container {
+	    max-width: 98%;
+	 }
+	 .gallery-section .container .col-lg-3{
+	 	width: 50%;
+	 }
+	 .gallery-2-section{
+	 	padding: 100px 0px;
+	 }
+	 .gallery-2-section h2 {
+	    font-size: 60px;
+	    line-height: 60px;
+	 }
+	 .gallery-2-section p {
+	    width: 100%;
+	 }
+	 .footer-section{
+	 	padding: 30px 0px;
+	 }
+  
+}
